@@ -1,6 +1,6 @@
-import telebot
+ import telebot
 
-# create a new bot with your bot token
+#. create a new bot with your bot token
 bot = telebot.TeleBot("6161593477:AAEWyBCM4xiufEjc74PIxgWggnkOHpyRV4I")
 
 # dictionary to store the names entered by the users
@@ -18,7 +18,7 @@ def find_flames(name1, name2):
     	if i in name2_list:
                 name1_list.remove(i)
                 name2_list.remove(i)
-    print(name1_list, name2_list)
+
     
     # concatenate the remaining characters of both names
     remaining_chars = name1_list + name2_list
