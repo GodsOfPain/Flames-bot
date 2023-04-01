@@ -9,6 +9,7 @@ user_names = {}
 # function to find the FLAMES combination
 def find_flames(name1, name2):
     
+    print("[",name1, name2,"]")
     # create two lists with characters of names
     name1_list = list(name1.lower())
     name2_list = list(name2.lower())
